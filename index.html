@@ -7,9 +7,10 @@
   </head>
   
   <body style="margin: 0; overflow: hidden;">
+    <video id="videofofo" src="HannahDance.mp4" autoplay loop playsinline webkit-playsinline muted style=“display: none;”></video>
     <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false">
       <a-marker preset="hiro">
-        <a-image src="20250711_221149.jpg" rotation="-90 0 0"></a-image>
+        <a-video src="#videofofo" rotation= "-90 -90 0"></a-video>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
